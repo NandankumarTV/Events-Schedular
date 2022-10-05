@@ -1,0 +1,83 @@
+.edu-bang-topic{
+    color: rgb(0, 255, 13);
+    margin-top: 20px;
+    margin-left: 37%;
+    font-size: xx-large;
+    font-weight: 700;
+    font-family: 'Satisfy', cursive;
+  }
+  
+  .eve-2nd-box{
+    display:grid;
+    height:84px;
+    border-radius: 2px 2px 17px 17px;
+    grid-template-columns:1fr;
+    background-color:blue;
+  }
+  .body3{
+    background-color: aqua;
+  }
+
+  .topic{
+    color: blue;
+    margin-top: 20px;
+    margin-left: 37%;
+    font-size: xx-large;
+    font-weight: 700;
+    font-family: 'Alkalami', serif;
+   }
+   .topic:hover,.sports-view:hover{
+     cursor: pointer;
+   }
+   .big-box{
+     display:grid;
+     height:84px;
+     border-radius: 17px 17px 2px 2px;
+     grid-template-columns:1fr;
+     background-color: greenyellow;
+   }
+
+   .edu-bang-clo{
+    margin-left: 42%;
+    font-size: xx-large;
+    color: darkgoldenrod;
+    margin-top: 9px;
+    font-family: 'Alkalami', serif;
+    font-weight: 600;
+   }
+
+   .edu-bangd-img{
+    display:grid;
+  height:465px;
+  border-radius: 2px 2px 17px 17px;
+  grid-template-columns:1fr 1fr;
+   }
+
+.edu-bangp-img{
+    width: 400px;
+    height: 350px;
+    margin-left: 140px;
+    margin-top: 30px;
+}   
+
+.event-view{
+  width: 250px;
+  height: 50px;
+  margin-top: 2px;
+  color:rgb(20, 20, 255);
+  border-radius: 33px;
+  font-size: x-large;
+  margin-left: 220px;
+  background-color: lightskyblue
+}
+
+.event-view:hover{
+  color: lightskyblue;
+  background-color:rgb(20, 20, 255);
+  cursor: pointer;
+}
+
+.clo-events{
+  margin-top: 20px;
+}
+

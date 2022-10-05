@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    {% load static %}
+    <link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Bungee+Shade&family=Bungee+Spice&family=Poppins:ital,wght@1,600&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'page.css' %}">
+</head>
+<body class="body1">
+
+    <div class="big-box">
+    <p class="topic"> Welcome to favourite.events</p> 
+    </div>
+     <div class="img">
+    <div class="quotes">
+      <img  class="img-quotes" src="{% static 'schedular/event1-quotes.webp' %}">
+    </div>
+    <div class="ed">
+      <p class="pevent-title"> All  kinds  of  events</p>
+     <button class="edu"> Educational <br> Events </button>
+     <form action="chooseLocationEdu">
+     <button class="edu-view"> view here </button>
+    </form>
+    </div>
+    <div class="sp">
+     <button class="sports"> Sports <br> Events </button>
+     <form action="chooseLocationSpo">
+     <button class="sports-view"> view here </button>
+    </form>
+    </div>
+    <div class="pl">
+     <button class="sports"> Charity <br> Events </button>
+     <form action="chooseLocationCha">
+     <button class="sports-view"> view here </button>
+    </form>
+    </div>
+    <div class="cl">
+      <button class="sports"> Cultural <br> Events </button>
+      <form action="chooseLocationCul">
+     <button class="sports-view"> view here </button>
+    </form>
+  </div>
+</div>
+  <div class="down-quotes">
+      <p class="dwn-quo-para">
+        &ldquo; &nbsp;Life is either a daring adventure or nothing at all,<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I would like to tell you choose first one &rdquo;
+      </p>
+    </div>
+</body>
+</html>

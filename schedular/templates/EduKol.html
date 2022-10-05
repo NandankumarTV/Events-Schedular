@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    {% load static %}
+    <link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Bungee+Shade&family=Bungee+Spice&family=Poppins:ital,wght@1,600&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'page3.css' %}">
+</head>
+<body class="body3">
+    <div class="big-box">
+        <p class="topic"> Welcome to favourite.events</p> 
+    </div>
+
+    <div class="eve-2nd-box">
+        <p class="edu-bang-topic"> Educational events in Kolkata </p>
+    </div>
+
+    <div>
+        <p class="edu-Chen-up"><u>Upcoming Events </u></p>
+    </div>
+
+    <div>
+        <img class="edu-Chen-img" src="{% static 'schedular/KolEdu.webp' %}" >
+        <form action="EduKolDetails">
+            <button class="event-view-chen"> view here </button>
+           </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+.Details{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    background-color: aqua;
+    height: 400px;
+    width: 700px;
+    border-radius: 17px;
+    margin-top: 29px;
+    margin-left: 2%;
+}
+
+.edu-bangp-img-details{
+    width: 600px;
+    height: auto;
+    margin-top: 28px;
+    margin-left: 7%;
+}
+
+
+.topic4{
+    color: blue;
+    margin-top: 20px;
+    margin-left: 37%;
+    font-size: xx-large;
+    font-weight: 700;
+    font-family: 'Alkalami', serif;
+   }
+
+   .big-box4{
+    display:grid;
+    height:84px;
+    border-radius: 17px 17px 2px 2px;
+    grid-template-columns:1fr;
+    background-color: greenyellow;
+   }
+
+   .body4{
+    background-color: blanchedalmond;
+   }
+
+   .Detailsp{
+    margin-left: 170px;
+    background-color: aquamarine;
+    height: 400px;
+    width: 650px;
+    border-radius: 17px;
+   }
+
+   .para-event{
+    font-size: x-large;
+    font-weight: 400;
+    font-family: 'Alkalami', serif;
+    margin-left: 2%;
+   }
+
+   .edu-bangd-img{
+    display:grid;
+  height:465px;
+  border-radius: 2px 2px 17px 17px;
+  grid-template-columns:1fr 1fr;
+   }
+
+.edu-bangp-img{
+    width: 400px;
+    height: 350px;
+    margin-left: 140px;
+    margin-top: 0px;
+}   
+
+.edu-bang-clo{
+    margin-left: 42%;
+    font-size: xx-large;
+    color: darkgoldenrod;
+    margin-top: 110px;
+    font-family: 'Alkalami', serif;
+    font-weight: 600;
+   }
+
+   .event-view{
+    width: 250px;
+    height: 50px;
+    margin-top: 2px;
+    color:rgb(20, 20, 255);
+    border-radius: 33px;
+    font-size: x-large;
+    margin-left: 220px;
+    background-color: lightskyblue
+  }
+
+  .event-view:hover{
+    color: lightskyblue;
+    background-color:rgb(20, 20, 255);
+    cursor: pointer;
+  }

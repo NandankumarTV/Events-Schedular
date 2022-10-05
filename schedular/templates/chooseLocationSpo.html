@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    {% load static %}
+    <link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Bungee+Shade&family=Bungee+Spice&family=Poppins:ital,wght@1,600&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'page.css' %}">
+</head>
+<body class="body2">
+    <div class="big-box">
+        <p class="topic"> Welcome to favourite.events</p> 
+    </div>
+
+    <div class="location-bbox">
+        <div class="location-box">
+            <div class="div-loc-head">
+            <h1 class="loc-head"> Choose location</h1>
+            </div>
+            <div class="under-div">
+            <hr color="aqua" size="5">
+            </div>
+            <div>
+                <form action="SpoBang">
+                    <button class="choloc"> Bangalore </button>
+                   </form>
+            </div>
+            <div>
+                <form action="SpoChen">
+                    <button class="choloc"> Chennai</button>
+                   </form>
+            </div>
+            <div>
+                <form action="SpoMumb">
+                    <button class="choloc"> Mumbai </button>
+                   </form>
+            </div>
+            <div>
+                <form action="SpoKol">
+                    <button class="choloc"> Kolkata</button>
+                   </form>
+            </div>
+            <div>
+                <form action="SpoAny">
+                    <button class="choloc"> Anywhere</button>
+                   </form>
+            </div>
+         </div>
+    </div>
+    <div class="down-quotes">
+        <p class="dwn-quo-para2">
+          &ldquo; &nbsp;Dare to overcome life difficulties <br>
+          &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;to fulfill your dreams &rdquo;
+        </p>
+      </div>
+</body>
+</html>

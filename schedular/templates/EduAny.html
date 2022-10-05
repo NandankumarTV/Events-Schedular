@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    {% load static %}
+    <link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Bungee+Shade&family=Bungee+Spice&family=Poppins:ital,wght@1,600&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'page3.css' %}">
+</head>
+<body class="body3">
+    <div class="big-box">
+        <p class="topic"> Welcome to favourite.events</p> 
+    </div>
+
+    <div class="eve-2nd-box">
+        <p class="edu-bang-topic"> Educational events everywhere </p>
+    </div>
+    <div>
+        <p class="edu-all-clo"><u>Upcoming Events </u></p>
+    </div>
+    <div class="edu-all-img">
+        <div>
+            <img class="edu-bang-img" src="{% static 'schedular/KolEdu.webp' %}" >
+            <form action="EduKolDetails">
+                <button class="event-view"> view here </button>
+               </form>
+        </div>
+        <div>
+            <img  class="edu-bang-img" src="{% static 'schedular/ChenEdu1.webp' %}" >
+            <form action="EduChenDetails1">
+                <button class="event-view"> view here </button>
+               </form>
+        </div>
+        
+        </div>
+
+    <div class="clo-events">
+        <p class="edu-all-clo"><u>Closed Events </u></p>
+    </div>
+
+    <div class="edu-all-img">
+    <div>
+        <img class="edu-bang-img" src="{% static 'schedular/BangEdu1.webp' %}" >
+        <form action="EduBangDetails1">
+            <button class="event-view"> view here </button>
+           </form>
+    </div>
+    <div>
+        <img  class="edu-bang-img" src="{% static 'schedular/BangEdu2.webp' %}" >
+        <form action="EduBangDetails2">
+            <button class="event-view"> view here </button>
+           </form>
+    </div>
+    
+    </div>
+    <div class="edu-all-img">
+        <div>
+            <img class="edu-bang-img" src="{% static 'schedular/MumbEdu.webp' %}" >
+            <form action="EduMumbDetails">
+                <button class="event-view"> view here </button>
+               </form>
+        </div>
+        <div>
+            <img  class="edu-bang-img" src="{% static 'schedular/ChenEdu2.webp' %}" >
+            <form action="EduChenDetails2">
+                <button class="event-view"> view here </button>
+               </form>
+        </div>
+        
+        </div>
+       
+</body>
+</html>

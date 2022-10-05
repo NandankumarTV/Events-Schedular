@@ -1,0 +1,220 @@
+.body1{
+  background-color: hotpink;
+  ;
+}
+.body2{
+  background-color: hotpink;
+}
+
+
+.topic{
+ color: blue;
+ margin-top: 20px;
+ margin-left: 37%;
+ font-size: xx-large;
+ font-weight: 700;
+ font-family: 'Alkalami', serif;
+}
+.topic:hover,.sports-view:hover{
+  cursor: pointer;
+}
+.big-box{
+  display:grid;
+  height:84px;
+  border-radius: 17px 17px 2px 2px;
+  grid-template-columns:1fr;
+  background-color: greenyellow;
+}
+.img{
+  display:grid;
+  height:540px;
+  margin-top: 5px;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+  background-color: aqua;
+  border-radius: 2px 2px 2px 2px;
+}
+.pevent-title{
+  margin-top: 60px;
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: 'Satisfy', cursive;
+  color: blue;
+  margin-left: 30px;
+}
+
+.img-quotes{
+  width: 300px;
+  margin-left: 5px;
+  border-radius: 17px;
+  margin-top: 4px;
+}
+
+
+.edu{
+  width: 250px;
+  height: 300px;
+  color: deeppink;
+  background-color:floralwhite;
+  margin-top: 21px;
+  margin-left: 15px;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: 'Alkalami', serif;
+  border-radius: 15px;
+}
+.edu-view{
+  width: 250px;
+  height: 50px;
+  margin-top: 2px;
+  margin-left: 15px;
+  color:rgb(20, 20, 255);
+  border-radius: 33px;
+  font-size: x-large;
+  background-color: lightskyblue
+}
+
+.edu-view:hover{
+  cursor: pointer;
+  color: lightskyblue;
+  background-color:rgb(20, 20, 255);
+}
+
+.sports{
+  width: 250px;
+  height: 300px;
+  color: deeppink;
+  background-color: floralwhite;
+  margin-top:160px;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: 'Alkalami', serif;
+  border-radius: 15px;
+  margin-left: 8px;
+}
+
+.sports-view{
+  width: 250px;
+  height: 50px;
+  margin-top: 2px;
+  color:rgb(20, 20, 255);
+  border-radius: 33px;
+  font-size: x-large;
+  margin-left: 9px;
+  background-color: lightskyblue
+}
+
+.sports-view:hover{
+  cursor: pointer;
+  color: lightskyblue;
+  background-color:rgb(20, 20, 255);
+}
+
+.down-quotes{
+  height: 106px;
+  border-radius: 2px 2px 17px 17px;
+  background-color: greenyellow;
+  margin-top: 2px;
+}
+
+.dwn-quo-para{
+  font-family: 'Satisfy', cursive;
+  font-size: 36px;
+  margin-top: 4px;
+  margin-left: 400px;
+  color:rgb(38, 0, 255);
+}
+
+
+.location-bbox{
+    display: grid;
+    height:540px;
+    grid-template-columns:1fr;
+    background-color: gold;
+    border-radius: 2px 2px 2px 2px;
+    margin-top: 5px;
+  }
+.location-box{
+  display: grid;
+  height: 500px;
+  border-radius: 9px;
+  margin-left: 465px;
+  width: 600px;
+  background-color: rgb(196, 253, 255);
+  margin-top: 19px;
+  border-radius: 70px 70px 70px 70px;
+}
+
+.loc-head{
+  margin-left: 190px;
+  color: coral;
+  height: 40px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.underline{
+  color: aqua;
+  margin-top: 7px;
+  font-family: aller;
+  font-size: 9;
+  margin-bottom: 0px;
+  width: 590px;
+  height: 9x;
+  size: 10;
+}
+
+.under-div{
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+.div-loc-head{
+  margin-top: 0px;
+  height: 40px;
+}
+
+.choloc{
+width: 300px;
+height: 50px;
+margin-top: 2px;
+margin-left: 148px;
+color: rgb(251, 255, 20);
+border-radius: 20px;
+font-size: xx-large;
+background-color: rgb(255, 0, 225);
+font-family: 'Satisfy', cursive;
+
+}
+
+.choloc:hover{
+  color: rgb(255, 0, 225);
+  background-color: rgb(251, 255, 20);
+}
+
+.dwn-quo-para2{
+  font-family: 'Satisfy', cursive;
+  font-size: 36px;
+  margin-top: 7px;
+  margin-left: 400px;
+  color:rgb(38, 0, 255);
+}
+
+.edu-bang-topic{
+  color: blue;
+  margin-top: 20px;
+  margin-left: 37%;
+  font-size: xx-large;
+  font-weight: 700;
+  font-family: 'Satisfy', cursive;
+}
+
+.eve-2nd-box{
+  display:grid;
+  height:84px;
+  border-radius: 17px 17px 2px 2px;
+  grid-template-columns:1fr;
+  background-color: darkseagreen;
+}
+.body3{
+  background-color: aqua;
+}

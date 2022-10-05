@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    {% load static %}
+    <link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Bungee+Shade&family=Bungee+Spice&family=Poppins:ital,wght@1,600&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'page4.css' %}">
+</head>
+<body class="body4">
+
+    <div class="big-box4">
+    <p class="topic4"> Welcome to favourite.events</p> 
+    </div>
+    <div class="Details">
+    <div>
+        <img class="edu-bangp-img-details" src="{% static 'schedular/MumbEdu.webp' %}" >
+    </div>
+    <div class="Detailsp">
+        <p class="para-event">
+            location:-Bangalore [Offline available]<br>
+            Start Date:-&nbsp;1st OCT 2022 <br>
+            End Date:-&nbsp; 29th OCT 2022 <br>
+            Contact no:-&nbsp; 6789378452 <br>
+            Mode:-&nbsp; Online 
+        </p>
+    </div>
+    </div>
+    <div>
+        <p class="edu-bang-clo"><u>Similar Events </u></p>
+    </div>
+
+    <div class="edu-bangd-img">
+    <div>
+        <img class="edu-bangp-img" src="{% static 'schedular/ChenEdu2.webp' %}" >
+        <form action="EduChenDetails2">
+            <button class="event-view"> view here </button>
+           </form>
+    </div>
+    <div>
+        <img  class="edu-bangp-img" src="{% static 'schedular/ChenEdu1.webp' %}" >
+        <form action="EduChenDetails1">
+            <button class="event-view"> view here </button>
+           </form>
+    </div>
+    
+    </div>
+</body>
+</html>   
